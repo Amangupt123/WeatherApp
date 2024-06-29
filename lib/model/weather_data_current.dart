@@ -63,6 +63,7 @@ class Weather {
         main: json['main'] as String?,
         description: json['description'] as String?,
         icon: json['icon'] as String?,
+        
       );
 
   Map<String, dynamic> toJson() => {
